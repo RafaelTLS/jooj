@@ -4,9 +4,10 @@
 		<link rel="stylesheet" type="text/css" href="css.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script>
-			$('img').click(function(){
-				video = '<iframe src="'+$(this).attr('ovideo')+'"></iframe>';
-				$(this).replaceWitch(video);
+			$(document).ready(function() {
+				$("img.video").click(function() {
+					$("img.video").replaceWith('<video src="https://i.imgur.com/9zVSP5k.mp4" controls autoplay></video>');
+				});
 			});
 		</script>
 	</head>
@@ -18,7 +19,7 @@
 		<div class=middle>
 			<ul id="not">
 				<li>
-					<img src="https://i9.ytimg.com/vi_blogger/1oUcTIZHj4E/1.jpg?sqp=CMag8PoFGPDEAfqGspsBBgjAAhC0AQ&rs=AMzJL3nlscdoXYfJbwVZ4U7F4aUoMMrvcQ" ovideo="https://www.blogger.com/video.g?token=AD6v5dzUdYGZp4VBBcS_mdJH53Ja-Gq5N8KFSU_yG-ZnLVpDiRcazB6Fe9jJVB2yaZQyQ8aPfFWZW_Dk7im_nynCn_fPM1MQQONbUYdscwuUNywUWQIufVPUi0nhbMXAnaEfaIqJXsWm">
+					<img class="video" src="https://i9.ytimg.com/vi_blogger/1oUcTIZHj4E/1.jpg?sqp=CMag8PoFGPDEAfqGspsBBgjAAhC0AQ&rs=AMzJL3nlscdoXYfJbwVZ4U7F4aUoMMrvcQ">
 					<div class="headline">
 						<a id="not" href="#">TOP 10 GOSTOSAS DOS GAME</a>
 						<br><a id="by" href="#">Escrito por <b>manda uma dm pfvr</b></a>
