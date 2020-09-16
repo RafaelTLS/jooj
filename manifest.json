@@ -1,10 +1,7 @@
 {
 	"name": "Masturbyte - Site pica de games!",
 	"short_name": "Masturbyte",
-	"start_url": "/",
-	"display": "standalone",
-	"background_color" : "#eb4034" ,
-	"theme_color" : "#eb4034" ,
+	"color" : "eb4034",
 	"description": "Site pica de games!",
 	"icons": [
 		{
