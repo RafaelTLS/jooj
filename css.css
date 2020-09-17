@@ -42,6 +42,7 @@ h2#sub {
   background-color: #eb4034;
   height: 150px;
   padding-bottom: 10px;
+  position: fixed;
 }
 
 .middle {
