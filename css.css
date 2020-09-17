@@ -42,7 +42,6 @@ h2#sub {
   background-color: #eb4034;
   height: 150px;
   padding-bottom: 10px;
-  position: fixed;
 }
 
 .middle {
@@ -61,12 +60,12 @@ li {
   padding: 10px;
 }
 
-a {
+a, p {
   text-decoration: none;
   color: inherit;
 }
 
-a#not {
+a#not, p#not {
     font-size: 60px;
   font-weight: 600;
   vertical-align: top;
@@ -75,7 +74,7 @@ a#not {
   line-height: 80%;
 }
 
-a#by {
+a#by, p#by {
   text-align: left;
   vertical-align: bottom;
   font-size: 20px;
